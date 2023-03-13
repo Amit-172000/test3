@@ -2,7 +2,7 @@ var http = require('http');
 //create a server object:  
   
 http.createServer(function (req, res) {  
-    res.write('Hello World!'); //write a response to the client  
+    res.write('Hello World!\n'); //write a response to the client  
     res.write('this is V2 of NodeApp');
     
     res.end(); //end the response  
