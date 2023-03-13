@@ -5,6 +5,8 @@ http.createServer(function (req, res) {
     res.write('Hello World!\n'); //write a response to the client  
     res.write('this is V2 of NodeApp\n');
     res.write('this is V3');
+    res.write('this is V4');
+
     
     res.end(); //end the response  
 }).listen(8080); //the server object listens on port 8080   
